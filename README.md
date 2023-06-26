@@ -1,6 +1,6 @@
 # Javascript_Games
 
-Creating games using JavaScript to improve my javascript skills and branch out to look into how else javascript can be used!
+Creating games using JavaScript to improve my javascript skills/knowledge and branch out to look into how else javascript can be used!
 
 ## Games so far:
 
