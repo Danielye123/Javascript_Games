@@ -1,6 +1,8 @@
 # Javascript_Games
 
-Creating games using JavaScript:
+Creating games using JavaScript to improve my javascript skills and branch out to look into how else javascript can be used!
+
+Games so far:
 
 Sprite Animations:
 
@@ -14,3 +16,6 @@ https://github.com/Danielye123/Javascript_Games/assets/73367368/55c4acb3-90a6-40
 Parallax Background:
 
 https://github.com/Danielye123/Javascript_Games/assets/73367368/951ac923-081c-4e99-9bae-6a91ca42b2e9
+
+Credit to Franks Laboratory!
+https://www.youtube.com/@Frankslaboratory
