@@ -7,6 +7,9 @@ CANVAS_HEIGHT = canvas.height = 1000;
 const numberofEnemies = 100;
 const enemiesArray = [];
 
+const enemyImage = new Image();
+enemyImage.src = 'enemy1.png';
+
 class Enemy {
     constructor(){
         this.x = Math.random() * canvas.width;
@@ -20,7 +23,8 @@ class Enemy {
         this.y+= this.speed;
     }
     draw(){
-        ctx.fillRect(this.x, this.y, this.width, this.height)
+        ctx.strokeRect(this.x, this.y, this.width, this.height);
+        ctx.drawImage(enemyImage, this.x, this.y);
     }
 };
 
