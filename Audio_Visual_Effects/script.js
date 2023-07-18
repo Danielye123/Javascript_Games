@@ -20,7 +20,12 @@ class Explosion {
         this.angle = Math.random() * 6.2;
         this.sound = new Audio();
         this.sound.src = 'boom.wav';
+        this.sound.volume = 0.3; 
     }
+    setVolume(volume) {
+        // Set the volume level (between 0 and 1)
+        this.sound.volume = volume;
+      }
     update(){
         if (this.frame === 0) this.sound.play();
         this.timer++;
@@ -52,6 +57,7 @@ function createAnimation(e){
     let positionY = e.y - canvasPosition.top;
 
     explosions.push(new Explosion(positionX, positionY));
+    explosions[explosions.length - 1].setVolume(0.2);
 }
 
 function animate(){
